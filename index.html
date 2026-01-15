@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặc Sản Tịnh Biên - Cô Ba</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0; padding: 0;
+            display: flex; flex-direction: column; align-items: center;
+        }
+        .container {
+            max-width: 480px; width: 100%;
+            background: #fff; min-height: 100vh;
+            padding: 20px; box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile { text-align: center; margin-bottom: 30px; }
+        .avatar {
+            width: 100px; height: 100px;
+            border-radius: 50%; object-fit: cover;
+            border: 3px solid #28a745; margin-bottom: 10px;
+        }
+        h1 { font-size: 20px; margin: 5px 0; color: #333; }
+        p { color: #666; font-size: 14px; margin-top: 0; }
+        
+        .btn {
+            display: block; width: 100%;
+            padding: 15px 0; margin-bottom: 12px;
+            text-align: center; text-decoration: none;
+            color: #333; background: #fff;
+            border: 1px solid #ddd; border-radius: 50px;
+            font-weight: bold; transition: 0.3s;
+        }
+        .btn:hover { background: #f9f9f9; transform: translateY(-2px); }
+        
+        /* Nút nổi bật */
+        .btn-hot {
+            background: #28a745; color: white; border: none;
+            animation: pulse 1.5s infinite;
+        }
+        .btn-hot:hover { background: #218838; color: white; }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(40, 167, 69, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); }
+        }
+        .footer { text-align: center; font-size: 12px; color: #aaa; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile">
+            <img src="https://i.pinimg.com/736x/c6/e5/65/c6e56503cfdd87da299f72dc416023d4.jpg" alt="Avatar" class="avatar">
+            <h1>Cửa Hàng Cô Ba Tịnh Biên</h1>
+            <p>Chuyên đặc sản Thốt Nốt & Cây Chúc bảy núi</p>
+        </div>
+
+        <a href="https://zalo.me/SDT_CUA_BAN" class="btn btn-hot">
+            🔥 Đặt mua ngay (Giảm 10%)
+        </a>
+
+        <a href="LINK_VIDEO_YOUTUBE" class="btn">
+            🎥 Xem video quy trình làm mắm
+        </a>
+
+        <a href="LINK_FACEBOOK_CUA_BAN" class="btn">
+            📋 Xem Menu & Bảng giá
+        </a>
+
+        <a href="LINK_GOOGLE_MAP" class="btn">
+            📍 Bản đồ đường đi
+        </a>
+
+        <div class="footer">© 2025 Đặc sản Vùng Miền</div>
+    </div>
+
+</body>
+</html>
